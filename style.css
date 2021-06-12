@@ -62,6 +62,32 @@ background: linear-gradient(to bottom, #202020, #474f55); /* W3C, IE 10+/ Edge, 
     
 }
 
+.top-card {
+    position: relative;
+}
+
+.down {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.card-description {
+    padding: 15px 30px;
+    letter-spacing: 0.7px;
+    line-height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.text-d {
+    font-size: 14px !important;
+}
+
 #banner {
     animation: fadeIn 4s;
     -webkit-animation: fadeIn 4s;
@@ -151,6 +177,7 @@ background: linear-gradient(to bottom, #202020, #474f55); /* W3C, IE 10+/ Edge, 
 .card-title {
     font-family: 'Noto Serif', serif;
     letter-spacing: 0.3rem;
+    font-size: 24px;
 }
 
 .card-text {
